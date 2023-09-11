@@ -1,0 +1,11 @@
+Aplikacja kliencka może zostać uruchomiona z obydwoma serwerami:
+	Serwer PaaS:
+	W pliku "vite.config.js" należy zmienić wartość url serwera proxy na adres URL serwera źródłowego PaaS
+	Serwer FaaS:
+	W pliku "vite.config.js" należy zmienić wartość url serwera proxy na adres URL serwera źródłowego FaaS
+
+Następnie należy uruchomić okienko komend (cmd) w katalogu źródłowym i wpisać następujące komendy:
+npm i
+npm run dev 
+
+komenda "npm i" instaluje środowisko react a "npm run dev" uruchamia program
